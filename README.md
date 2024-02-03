@@ -28,4 +28,5 @@ Toggle Temperature Unit:
 Click on the "°C<->°F" button to toggle between Celsius and Fahrenheit temperature units.
 Celsius to Fahrenheit Conversion:
 
-When viewing temperature in Celsius, click on the "Change" button to convert the temperature to Fahrenheit. Similarly, when viewing temperature in Fahrenheit, click again to switch back to Celsius.
+When viewing temperature in Celsius, click on the "°C<->°F" button to convert the temperature to Fahrenheit. Similarly, when viewing temperature in Fahrenheit, click again to switch back to Celsius.
+It uses the logic of conversion °F = (9/5 × °C) + 32.
