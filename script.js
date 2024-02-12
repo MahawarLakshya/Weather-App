@@ -11,15 +11,15 @@ $(document).ready(function() {
     const er2 = $('.weather-body');
     const glass = $('.glass');
 
-    $('#temperature-toggle').click(function() {
-        const temperature = $('#temperature').text();
-        const temperatureValue = parseInt(temperature.replace('°C', ''));
-        const newTemperatureValue = temperature.includes('°C') ?
-            (temperatureValue * 9 / 5 + 32).toFixed(2) + '°F' :
-            ((temperatureValue - 32) * 5 / 9).toFixed(2) + '°C';
+    // $('#temperature-toggle').click(function() {
+    //     const temperature = $('#temperature').text();
+    //     const temperatureValue = parseInt(temperature.replace('°C', ''));
+    //     const newTemperatureValue = temperature.includes('°C') ?
+    //         (temperatureValue * 9 / 5 + 32).toFixed(2) + '°F' :
+    //         ((temperatureValue - 32) * 5 / 9).toFixed(2) + '°C';
 
-        $('#temperature').text(newTemperatureValue);
-    });
+    //     $('#temperature').text(newTemperatureValue);
+    // });
 
     searchbtn.click(function() {
         const api_key = "ff17a5ae16df7cfbcb06afe3dd33e0a2";
