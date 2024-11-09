@@ -6,14 +6,9 @@ Features:
 2.Displays temperature, description, humidity, and wind speed
 3.Error message for invalid or not found locations
 
+Link https://mahawarlakshya.github.io/Weather-App/
 
 Usage:
-Clone the Repository:git clone https://github.com/your-username/weather-app.git
-Navigate to the Repository:cd weather-app
-
-Open the Application:
-Open index.html in your web browser.
-
 Enter Location:
 In the input box, enter the name of the location you want to check the weather for.
 
