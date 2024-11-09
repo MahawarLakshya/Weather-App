@@ -55,7 +55,8 @@ $(document).ready(function() {
                         case 'Mist':
                             weatherImg.attr("src", "mist.png");
                             break;
-                        case 'Haze':
+                        case 'Haze':weatherImg.attr("src", "smoke.jpeg");
+                            break;
                         case 'Smoke':
                             weatherImg.attr("src", "smoke.jpeg");
                             break;
